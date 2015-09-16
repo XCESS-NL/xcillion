@@ -1,0 +1,59 @@
+body {
+    background: @base_light;
+    color: @body_color;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 1.5em;
+}
+
+body, th, td, table, h1, h2, h3, h4, h5, h6,
+.Head, .SubHead, .SubSubHead,
+.Normal, .NormalBold, .NormalRed, .NormalTextBox, .NormalDisabled,
+a:link, a:visited, a:hover, input, .CommandButton {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+.SubHead {color: #000000;}
+Body #Form{ height:100%; }
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {border:0; }
+// article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {display: block;}
+a img{border:0;}
+img, object, embed { max-width: 100%;}
+[class*="map"] img,[id*="map"] img,[class*="Map"] img,[id*="Map"] img, table img{max-width:none!important;}
+img{border:0; height:auto;}
+
+
+em {
+    font-style: italic;
+    letter-spacing: 0;
+}
+
+strong {
+    color: #333;
+    font-weight: bold;
+}
+
+small {
+    font-size: 12px;
+    letter-spacing: 0;
+}
+
+a {
+    &:link, &:visited, &:active {
+        text-decoration: none;
+    }
+
+    &:hover {
+       text-decoration:underline; 
+    }
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+p, li {
+	font-size: 16px;
+	line-height: 1.5em;
+}
+
+ol li > ol li {list-style-type: lower-latin;}

@@ -1,0 +1,46 @@
+/*========== MAIN NAVIGATION  ==========*/
+
+/* brand */
+.navbar .brand {
+    float: left;
+    padding: 0!important;
+    max-width: 120px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-navigation {
+        /*margin-top: 190px;*/
+        height: auto; 
+        width: 100%;
+    }
+
+    nav{ display:none;}
+    a.mobile-nav-btn{ 
+        display: block;
+        float: right;
+        width: 50px;
+        height: 46px;
+        margin-top: 15px;
+        text-align: center;
+        color: @base_dark;
+		&:hover {
+            text-decoration: none;
+        }
+    }
+
+    #navbar-top-wrapper {
+        clear: both;
+        position: relative;
+        /*margin: 0 0 100px;*/
+    }
+
+    #navbar {
+        float: none!important;
+    }
+
+}
+@media only screen and (min-width : 767px) {
+    #navbar {
+        float: right;
+    }
+}
