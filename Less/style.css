@@ -380,6 +380,7 @@ ol li > ol li {
 h1, h2, h3, h4, h5, h6 {
   color: #020202;
   line-height: 1.3em;
+  margin: 0 0 10px 0;
 }
 html {
   font-size: 16px;
@@ -1144,31 +1145,31 @@ figure.hover-effect:hover p {
   letter-spacing: 0.3px;
   color: #737373;
 }
-.content-block-news .article-layout .item a:hover .item-header .item-meta {
+.content-block-news .article-layout .item:hover .item-header .item-meta {
   bottom: 0;
   opacity: 1;
 }
-.content-block-news .article-layout .item a:hover .item-header .item-category span {
+.content-block-news .article-layout .item:hover .item-header .item-category span {
   background: none repeat scroll 0 0 #7ca0c0;
   border-color: transparent !important;
   color: #ffffff;
 }
-.content-block-news .article-layout .item a:hover .item-image img {
+.content-block-news .article-layout .item:hover .item-image img {
   opacity: 1;
 }
-.content-block-news .article-layout .item a:hover .item-image .item-header {
+.content-block-news .article-layout .item:hover .item-image .item-header {
   background: none repeat scroll 0 0 rgba(81, 81, 81, 0.7);
 }
-.content-block-news .article-layout .item a:hover .item-image .item-header strong {
+.content-block-news .article-layout .item:hover .item-image .item-header strong {
   bottom: 50px;
 }
-.content-block-news .article-layout .item a:hover .item-content {
+.content-block-news .article-layout .item:hover .item-content {
   background: none repeat scroll 0 0 #ffffff;
   -webkit-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.03);
   -moz-box-shadow: 0 3px 0 rgba(0, 0, 0, 0.03);
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.03);
 }
-.content-block-news .article-layout .item a:hover .item-content .item-footer-more {
+.content-block-news .article-layout .item:hover .item-content .item-footer-more {
   color: inherit;
   font-weight: bold;
   letter-spacing: 0;
